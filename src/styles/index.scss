@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import './variables.scss';
+@import './layout/index.scss';
+@import './top-bar/index.scss';
+@import './side-bar/index.scss';
+@import './switch.scss';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+
+}

@@ -1,0 +1,13 @@
+.side-bar__change-mode {
+  border-top: 1px solid $line-color;
+  border-bottom: 1px solid $line-color;
+  margin-bottom: 60px;
+  padding: 5px 5px 5px 20px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  &--label {
+    margin-left: 10px;
+  }
+}
