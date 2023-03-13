@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux';
 import { Chargers } from '../../components/chargers';
+import { Graphics } from '../../components/graphics';
 import { StationEnergy } from '../../components/station_energy';
 import { fetchAssets } from '../../redux/actions/data';
 
@@ -16,7 +17,9 @@ export const Home = () => {
        <br/>
        <Chargers />
       </div>
-      <div className='home__graphics'></div>
+      <div className='home__graphics'>
+        <Graphics />
+      </div>
     </div>
   )
 }
