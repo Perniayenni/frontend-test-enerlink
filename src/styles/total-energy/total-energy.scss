@@ -1,0 +1,11 @@
+.total-energy {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  
+  label {
+    max-width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

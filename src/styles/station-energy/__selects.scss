@@ -1,0 +1,7 @@
+.station-energy__selects {
+  display: flex;
+
+  label {
+    @include title-card;
+  }
+}
